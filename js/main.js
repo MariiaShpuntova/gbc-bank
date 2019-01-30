@@ -18,7 +18,8 @@ let name = `George Brown`;
       // Search the document for the 'balance' element
       // Change the content of the element
       //I was thinking to use this web-site in oder to fix this problem, but it did not work for me()//https://ethereum.stackexchange.com/questions/8900/how-to-get-transactions-by-account-using-web3-js
-
+//I did let them know there starting balance
+document.getElementById('balance').innerHTML = balance;
 
 var completeTransaction = function() {
 
